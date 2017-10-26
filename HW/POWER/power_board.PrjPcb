@@ -90,7 +90,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FKYPPQDB
 
 [Document4]
-DocumentPath=pcb.PcbDoc
+DocumentPath=ie-tank-kit-pwr-1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,6 +157,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PRNPMTJB
 
+[Document8]
+DocumentPath=output_job.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=4CCF6EFE-455D-47A9-9D53-78B4B9DA1CC4
 Description=simple
@@ -211,6 +228,58 @@ ParamVariationCount=0
 DocumentPath=Project Outputs for power_board\Design Rule Check - pcb.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=FABRICATION\NC Drill\pcb.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=FABRICATION\Gerber\pcb.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=FABRICATION\Gerber\pcb.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=FABRICATION\Gerber\pcb.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=FABRICATION\Gerber\pcb.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=FABRICATION\Gerber\pcb.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=FABRICATION\Gerber\pcb.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=FABRICATION\Gerber\pcb.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=FABRICATION\Gerber\pcb.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=FABRICATION\NC Drill\pcb.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=FABRICATION\Gerber\pcb.REP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=FABRICATION\Gerber\pcb.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=FABRICATION\NC Drill\pcb.TXT
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -224,7 +293,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -331,17 +400,37 @@ OutputName21=XSpice Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -420,11 +509,17 @@ OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Software Platform Print
+OutputName13=Software Platform Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -446,7 +541,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -518,7 +613,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -555,7 +650,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -735,7 +830,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -774,7 +869,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -825,7 +920,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
