@@ -1,11 +1,11 @@
 [Design]
 Version=1.0
-HierarchyMode=3
+HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
-OpenOutputs=1
+OpenOutputs=0
 ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
@@ -28,8 +28,8 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
-LogFolderPath=
+OutputPath=Project Outputs
+LogFolderPath=Project Logs
 ManagedProjectGUID=
 IncludeDesignInRelease=0
 
@@ -37,14 +37,19 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
-DocumentPath=power.SchDoc
+DocumentPath=[01] - COVER PAGE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -52,16 +57,16 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AXRGPFRC
+DocumentUniqueId=XHJOACSQ
 
 [Document2]
-DocumentPath=battery_protection.SchDoc
+DocumentPath=[02] - REVISION HISTORY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -69,16 +74,16 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AGLTXFFS
+DocumentUniqueId=QIWPOGFT
 
 [Document3]
-DocumentPath=motor_drivers.SchDoc
+DocumentPath=[03] - BLOCK DIAGRAM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=2
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -86,61 +91,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FKYPPQDB
+DocumentUniqueId=GOVQVHNV
 
 [Document4]
-DocumentPath=lights.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IAIATUBB
-
-[Document5]
-DocumentPath=mechanical.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FCADVPXQ
-
-[Document6]
-DocumentPath=main_connector.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PRNPMTJB
-
-[Document7]
-DocumentPath=output_job.OutJob
+DocumentPath=outjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -156,7 +110,92 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document5]
+DocumentPath=[04] - BATTERIES WITH PROTECTION.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AGLTXFFS
+
+[Document6]
+DocumentPath=[05] - POWER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AXRGPFRC
+
+[Document7]
+DocumentPath=[06] - MOTOR DRIVERS.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FKYPPQDB
+
 [Document8]
+DocumentPath=[07] - LIGHTS.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IAIATUBB
+
+[Document9]
+DocumentPath=[08] - MAIN CONNECTOR.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PRNPMTJB
+
+[Document10]
 DocumentPath=ie-track-kit-pwr-1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,95 +212,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KUIWDSHG
 
-[ProjectVariant1]
-UniqueID=4CCF6EFE-455D-47A9-9D53-78B4B9DA1CC4
-Description=simple
-AllowFabrication=0
-ParameterCount=0
-VariationCount=32
-Variation1=Designator=R22|UniqueId=\FLBBICVU|Kind=0|AlternatePart= 
-Variation2=Designator=Q7|UniqueId=\CYRDNQGO|Kind=1|AlternatePart= 
-Variation3=Designator=R21|UniqueId=\MTWOGWTC|Kind=1|AlternatePart= 
-Variation4=Designator=C19|UniqueId=\APNRBOIO|Kind=1|AlternatePart= 
-Variation5=Designator=R20|UniqueId=\NYWNPWOD|Kind=1|AlternatePart= 
-Variation6=Designator=R18|UniqueId=\SEDGLEVX|Kind=1|AlternatePart= 
-Variation7=Designator=R17|UniqueId=\FFBAEIDK|Kind=1|AlternatePart= 
-Variation8=Designator=R19|UniqueId=\AEBESPAV|Kind=1|AlternatePart= 
-Variation9=Designator=C17|UniqueId=\ONORLPIS|Kind=1|AlternatePart= 
-Variation10=Designator=C18|UniqueId=\DCBVIPWA|Kind=1|AlternatePart= 
-Variation11=Designator=U3|UniqueId=\LVFCQHAS|Kind=1|AlternatePart= 
-Variation12=Designator=U2|UniqueId=\WHDGRRBS|Kind=1|AlternatePart= 
-Variation13=Designator=R10|UniqueId=\FJWBROBX|Kind=1|AlternatePart= 
-Variation14=Designator=C14|UniqueId=\TVQHELWV|Kind=1|AlternatePart= 
-Variation15=Designator=C10|UniqueId=\PLSYSIJK|Kind=1|AlternatePart= 
-Variation16=Designator=R9|UniqueId=\RAHRFIUF|Kind=0|AlternatePart= 
-Variation17=Designator=R11|UniqueId=\TAYHXROS|Kind=1|AlternatePart= 
-Variation18=Designator=Q3|UniqueId=\GCMAHBQR|Kind=1|AlternatePart= 
-Variation19=Designator=Q4|UniqueId=\HAIHKYTC|Kind=1|AlternatePart= 
-Variation20=Designator=L2|UniqueId=\XPUDSHYG|Kind=1|AlternatePart= 
-Variation21=Designator=D5|UniqueId=\WJTFMMIU|Kind=1|AlternatePart= 
-Variation22=Designator=R14|UniqueId=\XTTUYEUB|Kind=1|AlternatePart= 
-Variation23=Designator=C16|UniqueId=\LDNJEAYT|Kind=1|AlternatePart= 
-Variation24=Designator=R16|UniqueId=\EHAJEFPY|Kind=1|AlternatePart= 
-Variation25=Designator=C15|UniqueId=\HCKOKPMO|Kind=1|AlternatePart= 
-Variation26=Designator=R15|UniqueId=\AGYKFVXI|Kind=1|AlternatePart= 
-Variation27=Designator=R12|UniqueId=\JWPKOYLU|Kind=1|AlternatePart= 
-Variation28=Designator=C13|UniqueId=\XSNHMPAC|Kind=1|AlternatePart= 
-Variation29=Designator=C11|UniqueId=\PQOTHYKV|Kind=1|AlternatePart= 
-Variation30=Designator=C12|UniqueId=\XUBWCTAP|Kind=1|AlternatePart= 
-Variation31=Designator=R13|UniqueId=\YSVFFLXK|Kind=1|AlternatePart= 
-Variation32=Designator=D4|UniqueId=\JQIEBSWT|Kind=1|AlternatePart= 
-ParamVariationCount=0
+[Parameter1]
+Name=ProjectCheckedBy
+Value=Janusz Jonski
 
-[ProjectVariant2]
-UniqueID=2859DECD-5157-4DD0-BC8F-BF189F1E815B
-Description=full
-AllowFabrication=0
-ParameterCount=0
-VariationCount=2
-Variation1=Designator=R22|UniqueId=\FLBBICVU|Kind=1|AlternatePart= 
-Variation2=Designator=R9|UniqueId=\RAHRFIUF|Kind=1|AlternatePart= 
-ParamVariationCount=0
+[Parameter2]
+Name=ProjectDrawnBy
+Value=Pawel Poryzala
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\Design Rule Check - ie-track-kit-pwr-1.html
-DItemRevisionGUID=
+[Parameter3]
+Name=ProjectRevision
+Value=0.1P
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.DRR
-DItemRevisionGUID=
+[Parameter4]
+Name=ProjectSheetTotal
+Value=5
 
-[GeneratedDocument3]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.REP
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for ie-track-kit-pwr-1\track_kit_test_2.TXT
-DItemRevisionGUID=
+[Parameter5]
+Name=ProjectTitle
+Value=Project Name
 
 [Configuration1]
 Name=Sources
@@ -272,6 +241,29 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Generic_EDE]
+OutputDir=Project Outputs
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -508,20 +500,20 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=HP LaserJet 2200 Series PCL 5
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=Board Stack Report
+OutputName1=Report Board Stack
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+OutputType2=CompositeDrill
+OutputName2=Composite Drill Drawing
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Board Stack Report
-OutputName3=Report Board Stack
+OutputType3=Drill
+OutputName3=Drill Drawing/Guides
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
@@ -532,56 +524,48 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+OutputType5=Gerber
+OutputName5=Gerber Files
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ODB
-OutputName6=ODB++ Files
+OutputType6=Gerber X2
+OutputName6=Gerber X2 Files
 OutputDocumentPath6=
-OutputVariantName6=[No Variations]
+OutputVariantName6=
 OutputDefault6=0
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+OutputType7=IPC2581
+OutputName7=IPC-2581 Files
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=Mask
+OutputName8=Solder/Paste Mask Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-Configuration8_Name1=ForceUpdateSettings
-Configuration8_Item1=False
-Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
-OutputType9=IPC2581
-OutputName9=IPC-2581 Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=NC Drill
+OutputName9=NC Drill Files
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+OutputType10=ODB
+OutputName10=ODB++ Files
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Test Points
-OutputName11=Test Point Report
+OutputType11=Plane
+OutputName11=Power-Plane Prints
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Gerber
-OutputName12=Gerber Files
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Test Points
+OutputName12=Test Point Report
 OutputDocumentPath12=
-OutputVariantName12=[No Variations]
+OutputVariantName12=
 OutputDefault12=0
-Configuration12_Name1=ForceUpdateSettings
-Configuration12_Item1=False
-Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16842751~1,16908291~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
