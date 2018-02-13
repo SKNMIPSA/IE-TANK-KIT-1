@@ -213,24 +213,28 @@ GenerateClassCluster=0
 DocumentUniqueId=KUIWDSHG
 
 [Parameter1]
-Name=ProjectCheckedBy
-Value=Janusz Jonski
+Name=
+Value=
 
 [Parameter2]
-Name=ProjectDrawnBy
-Value=Pawel Poryzala
+Name=ProjectTitle
+Value=ie-track-kit-pwr-1
 
 [Parameter3]
-Name=ProjectRevision
-Value=0.1P
-
-[Parameter4]
 Name=ProjectSheetTotal
 Value=5
 
+[Parameter4]
+Name=ProjectRevision
+Value=1.2
+
 [Parameter5]
-Name=ProjectTitle
-Value=Project Name
+Name=ProjectDrawnBy
+Value=Pawel Poryzala
+
+[Parameter6]
+Name=ProjectCheckedBy
+Value=Pawel Poryzala
 
 [Configuration1]
 Name=Sources
