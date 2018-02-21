@@ -253,6 +253,10 @@ Variation22=Designator=D1|UniqueId=\OPNWDJNE|Kind=1|AlternatePart=
 Variation23=Designator=R10|UniqueId=\GNLMLGFJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Design Rule Check - ie-track-kit-pwr-1.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectCheckedBy
 Value=Pawel Poryzala
