@@ -217,9 +217,10 @@ UniqueID=C9A940CE-CE0C-4644-946B-DE8FBD160A52
 Description=full
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=3
 Variation1=Designator=BT1|UniqueId=\URTTYYBQ|Kind=1|AlternatePart= 
 Variation2=Designator=BT3|UniqueId=\NAJMROEJ|Kind=1|AlternatePart= 
+Variation3=Designator=R16|UniqueId=\EPIYKVBQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -227,7 +228,7 @@ UniqueID=B94016AA-DC2F-4F9C-9D73-BA10A1140AD8
 Description=simple
 AllowFabrication=0
 ParameterCount=0
-VariationCount=23
+VariationCount=24
 Variation1=Designator=BT1|UniqueId=\URTTYYBQ|Kind=0|AlternatePart= 
 Variation2=Designator=BT3|UniqueId=\NAJMROEJ|Kind=0|AlternatePart= 
 Variation3=Designator=U1|UniqueId=\LVFCQHAS|Kind=1|AlternatePart= 
@@ -251,6 +252,7 @@ Variation20=Designator=R9|UniqueId=\GCDUSKDI|Kind=1|AlternatePart=
 Variation21=Designator=C5|UniqueId=\HWPTCVJA|Kind=1|AlternatePart= 
 Variation22=Designator=D1|UniqueId=\OPNWDJNE|Kind=1|AlternatePart= 
 Variation23=Designator=R10|UniqueId=\GNLMLGFJ|Kind=1|AlternatePart= 
+Variation24=Designator=P1|UniqueId=\CAKMMTKS|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -918,36 +920,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
