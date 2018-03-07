@@ -1,0 +1,137 @@
+Altium Designer Pick and Place Locations
+E:\Dropbox\_PRACA\HARDWARE\TamiyaTankBot_TTB\HW\POWER\__PRODUCTION\Pick Place\ie-track-kit-pwr-1, v1.2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       07.03.18
+Time:       18:14
+Revision:   cf09c667d37fff3d79ee7da2ca5c0973726a2865
+Variant:    No variations
+Units used: mil
+
+Designator Comment                                 Layer       Footprint                         Center-X(mil) Center-Y(mil) Rotation Description                                                           
+R11        0R                                      TopLayer    R0805                             1814.961      -4106.299     360      Resistor                                                              
+Q4         BC847B                                  TopLayer    SOT-23                            1913.386      -4039.370     180      "NPN General Purpose Transistor (VCE=45V, IC=100mA, HFE=200-450)"     
+Q3         BC847B                                  TopLayer    SOT-23                            1913.386      -3862.205     180      "NPN General Purpose Transistor (VCE=45V, IC=100mA, HFE=200-450)"     
+2          "Keystone 5000 Test Point (RED)"        BottomLayer Keystone_5000_RED                 1259.839      -1874.013     270      "Keystone 5000 Test Point (RED)"                                      
+R21        1k                                      TopLayer    R0805                             1811.024      -3208.661     270      Resistor                                                              
+D4         RED                                     TopLayer    LED0805R                          1811.024      -3022.992     270      "RED LED"                                                             
+C3         220nF                                   TopLayer    C0805                             1584.646      -3887.795     90       Capacitor                                                             
+BT1        "18650 (2x KEYSTONE 54 Holder) Battery" TopLayer    KEYSTONE_54_W_18650               228.346       -1949.606     90       "18650 (2x KEYSTONE 54 Holder) Battery"                               
+R9         100k                                    TopLayer    R0805                             2047.244      -4110.236     360      Resistor                                                              
+R8         560k                                    TopLayer    R0805                             2047.244      -3885.827     360      Resistor                                                              
+R10        470                                     BottomLayer R0805                             393.701       -1940.945     360      Resistor                                                              
+R7         4k7                                     TopLayer    R0805                             2047.244      -3960.630     180      Resistor                                                              
+Q2         IRLML6402                               TopLayer    SOT-23                            1653.543      -4196.850     270      "P-Channel; -20V, -3.7A, 1.3W; HEXFET Power MOS-FET"                  
+D1         RED                                     BottomLayer LED0805R                          393.701       -2051.181     180      "RED LED"                                                             
+C5         1u/25V                                  TopLayer    C0805                             2047.244      -3806.102     180      Capacitor                                                             
+C4         22u/10V                                 TopLayer    C0805                             2047.874      -4035.433     360      Capacitor                                                             
+BT3        "18650 (2x KEYSTONE 54 Holder) Battery" TopLayer    KEYSTONE_54_W_18650               980.315       -1949.606     270      "18650 (2x KEYSTONE 54 Holder) Battery"                               
+GND1       "Keystone 5001 Test Point (BLACK)"      BottomLayer Keystone_5001_BLACK               610.236       -1874.016     270      "Keystone 5001 Test Point (BLACK)"                                    
+3          "Keystone 5000 Test Point (RED)"        BottomLayer Keystone_5000_RED                 1043.307      -1874.016     270      "Keystone 5000 Test Point (RED)"                                      
+1          "Keystone 5000 Test Point (RED)"        BottomLayer Keystone_5000_RED                 826.769       -1874.013     270      "Keystone 5000 Test Point (RED)"                                      
+R16        "0R 1%"                                 TopLayer    R0805                             1665.354      -2456.693     90       Resistor                                                              
+P1         10k                                     TopLayer    3364W                             1664.291      -2456.693     90       3364W-1-103E                                                          
+CN1        QTR-8RC_DIRECT                          TopLayer    QTR-8RC_SNAPPED_GOLDPIN_VERTICAL  713.580       -1543.307     360      "QTR-8RC Reflectance Sensor Array (Pololu item No. 961)"              
+D9         KA-2810ASURSK                           TopLayer    LED2810                           78.740        -6370.079     180      KA-2810ASURSK                                                         
+D8         KA-2810ASURSK                           TopLayer    LED2810                           1889.764      -6370.079     180      KA-2810ASURSK                                                         
+R31        10R                                     TopLayer    R0805                             641.732       -3570.866     90       Resistor                                                              
+R20        1k                                      BottomLayer R0805                             1259.842      -1968.504     360      Resistor                                                              
+D6         GREEN                                   BottomLayer LED0805G                          1043.307      -2051.181     180      "GREEN LED"                                                           
+Q7         AO6401A                                 TopLayer    SOT-23-6                          1604.331      -1003.937     180      "P-Channel MOSFET; -60V, -5A, 1.3W;"                                  
+Q18        BC857BS                                 TopLayer    SOT-323-6_(SOT-363,_SC88,_SC70-6) 1610.236      -476.378      90       "2xPNP General Purpose Transistor (VCE=-45V, IC=-100mA)"              
+Q16        BC857BS                                 TopLayer    SOT-323-6_(SOT-363,_SC88,_SC70-6) 1570.866      -582.677      270      "2xPNP General Purpose Transistor (VCE=-45V, IC=-100mA)"              
+Q14        BC857BS                                 TopLayer    SOT-323-6_(SOT-363,_SC88,_SC70-6) 1464.567      -799.213      90       "2xPNP General Purpose Transistor (VCE=-45V, IC=-100mA)"              
+R43        47k                                     TopLayer    R0805                             1708.661      -275.591      360      Resistor                                                              
+R42        10k                                     TopLayer    R0805                             1673.228      -621.417      90       Resistor                                                              
+R41        47k                                     TopLayer    R0805                             1661.417      -732.284      180      Resistor                                                              
+R40        10k                                     TopLayer    R0805                             1661.417      -811.024      180      Resistor                                                              
+Q17        IRLML6402                               TopLayer    SOT-23                            1708.661      -401.575      180      "P-Channel; -20V, -3.7A, 1.3W; HEXFET Power MOS-FET"                  
+Q15        IRLML6402                               TopLayer    SOT-23                            1484.252      -492.126      180      "P-Channel; -20V, -3.7A, 1.3W; HEXFET Power MOS-FET"                  
+SW1        B3U-1000PM-B                            BottomLayer B3U-1000PM-B                      1515.748      -3523.622     270      "OMRON Ultra-small Tactile Switch - 12V/50mA"                         
+D18        LTW-108DCG-HS10                         BottomLayer LED2810                           1889.764      248.031       180      LTW-108DCG-HS10                                                       
+D19        LTW-108DCG-HS10                         BottomLayer LED2810                           2066.929      248.031       180      LTW-108DCG-HS10                                                       
+D17        LTW-108DCG-HS10                         BottomLayer LED2810                           78.740        248.031       180      LTW-108DCG-HS10                                                       
+D16        LTW-108DCG-HS10                         BottomLayer LED2810                           -98.425       248.031       180      LTW-108DCG-HS10                                                       
+D15        LTW-108DCG-HS10                         TopLayer    LED2810                           78.740        248.031       360      LTW-108DCG-HS10                                                       
+D14        LTW-108DCG-HS10                         TopLayer    LED2810                           1889.764      248.031       360      LTW-108DCG-HS10                                                       
+R32        1k                                      TopLayer    R0805                             948.819       -3692.913     360      Resistor                                                              
+R33        1k                                      TopLayer    R0805                             744.095       -3692.913     360      Resistor                                                              
+R30        10R                                     TopLayer    R0805                             846.457       -3570.866     90       Resistor                                                              
+Q9         IRLML0040TRPBF                          TopLayer    SOT-23                            948.819       -3566.929     360      "N-Channel; 40V, 3.6A, 1,25W; HEXFET Power MOS-FET"                   
+Q10        IRLML0040TRPBF                          TopLayer    SOT-23                            744.095       -3566.929     360      "N-Channel; 40V, 3.6A, 1,25W; HEXFET Power MOS-FET"                   
+D11        KA-2810ASURSK                           BottomLayer LED2810                           -98.425       -6370.079     360      KA-2810ASURSK                                                         
+D10        KA-2810ASURSK                           BottomLayer LED2810                           78.740        -6370.079     360      KA-2810ASURSK                                                         
+C17        220uF/16V                               TopLayer    CES_E_8.3x8.3_6.2                 1929.134      -4318.898     90       "Polarized Capacitor"                                                 
+D5         RED                                     BottomLayer LED0805R                          1259.842      -2051.181     180      "RED LED"                                                             
+C20        220uF/16V                               TopLayer    CES_E_8.3x8.3_6.2                 39.370        -4320.866     90       "Polarized Capacitor"                                                 
+U1         S-8232                                  TopLayer    TSSOP8                            1685.039      -3622.047     180      "Battery Protection IC For 2-Serial-Cell Pack"                        
+R5         4M7                                     TopLayer    R0805                             1476.378      -3592.520     180      Resistor                                                              
+R4         1k                                      TopLayer    R0805                             1820.866      -3887.795     270      Resistor                                                              
+R3         1k                                      TopLayer    R0805                             1742.126      -3887.795     270      Resistor                                                              
+R2         1k                                      TopLayer    R0805                             1584.646      -3721.102     90       Resistor                                                              
+R1         1k                                      TopLayer    R0805                             1584.646      -3562.362     90       Resistor                                                              
+Q1         AO8810                                  TopLayer    TSSOP8                            1476.378      -3799.213     180      "Dual Common Drain N-Channel MOSFET: Vds=20V, Rdson<20mR@4,5V, Id=7A" 
+C2         220nF                                   TopLayer    C0805                             1663.386      -3887.795     90       Capacitor                                                             
+C1         220nF                                   TopLayer    C0805                             1584.646      -3415.354     270      Capacitor                                                             
+C6         220uF/16V                               TopLayer    CES_E_8.3x8.3_6.2                 1929.134      -2618.110     90       "Polarized Capacitor"                                                 
+U2         NCP3063BDR2G                            TopLayer    SO8                               1515.748      -2696.850     0        "DC-DC Converter NCP3063BDR2G (Farnell 1547126)"                      
+R15        "3k9 1%"                                TopLayer    R0805                             1866.142      -2409.449     0        Resistor                                                              
+R19        "2k4 1%"                                TopLayer    R0805                             1491.496      -2500.000     180      Resistor                                                              
+R12        0R050                                   TopLayer    R0805                             1663.386      -2627.953     90       Resistor                                                              
+SW2        SL19123                                 TopLayer    500SSPXS1M6XEA                    1889.173      -3115.945     90       "Canal Electronic SPDT AC: 3A/250V, DC: 6A/28V"                       
+L1         "10uH, 3,45A"                           TopLayer    PSDB1005                          1602.362      -2000.000     90       "10uH, 20%, 3,45A, PSDB1005N Series Inductor"                         
+D3         MBRS140T3G                              TopLayer    SMB                               1976.378      -2165.354     180      "Schottky barrier rectifier: 40V, 1A"                                 
+C7         220uF/16V                               TopLayer    CES_E_8.3x8.3_6.2                 1929.134      -1598.425     90       "Polarized Capacitor"                                                 
+C8         100n/50V                                TopLayer    C0805                             1866.142      -2334.646     180      Capacitor                                                             
+C10        2,2n/50V                                TopLayer    C0805                             1594.488      -2962.598     90       Capacitor                                                             
+C9         1u/16V                                  TopLayer    C0805                             1663.386      -2775.591     90       Capacitor                                                             
+C11        6,8n/50V                                TopLayer    C0805                             1437.008      -2962.598     90       Capacitor                                                             
+Q5         AO6401A                                 TopLayer    SOT-23-6                          1625.984      -2307.087     270      "P-Channel MOSFET; -60V, -5A, 1.3W;"                                  
+Q8         BC847BPN                                TopLayer    SOT-323-6_(SOT-363,_SC88,_SC70-6) 1466.535      -1033.465     270      "PNP/NPN General Purpose Transistor (VCE=45V, IC=100mA)"              
+R13        1k                                      TopLayer    R0805                             1476.378      -2421.260     180      Resistor                                                              
+R18        1k                                      TopLayer    R0805                             1515.748      -2962.598     270      Resistor                                                              
+R17        22k                                     TopLayer    R0805                             1748.032      -2295.276     270      Resistor                                                              
+C12        220uF/16V                               TopLayer    CES_E_8.3x8.3_6.2                 1929.134      -598.425      90       "Polarized Capacitor"                                                 
+C13        100n/50V                                TopLayer    C0805                             1669.291      -1141.732     360      Capacitor                                                             
+C14        1u/16V                                  TopLayer    C0805                             1663.386      -1516.378     90       Capacitor                                                             
+C15        2,2n/50V                                TopLayer    C0805                             1604.331      -1683.071     90       Capacitor                                                             
+C16        6,8n/50V                                TopLayer    C0805                             1446.850      -1682.441     90       Capacitor                                                             
+D7         MBRS140T3G                              TopLayer    SMB                               1992.126      -1342.520     180      "Schottky barrier rectifier: 40V, 1A"                                 
+L2         "10uH, 3,45A"                           TopLayer    PSDB1005                          1948.819      -1017.716     90       "10uH, 20%, 3,45A, PSDB1005N Series Inductor"                         
+R23        0R050                                   TopLayer    R0805                             1663.386      -1368.110     90       Resistor                                                              
+R24        1k                                      TopLayer    R0805                             1486.220      -1131.890     180      Resistor                                                              
+R26        "3k0 1%"                                TopLayer    R0805                             1633.858      -1230.315     0        Resistor                                                              
+R27        22k                                     TopLayer    R0805                             1702.756      -1033.465     270      Resistor                                                              
+R28        "1k 1%"                                 TopLayer    R0805                             1486.220      -1230.315     180      Resistor                                                              
+R29        1k                                      TopLayer    R0805                             1524.961      -1682.441     270      Resistor                                                              
+U3         NCP3063BDR2G                            TopLayer    SO8                               1515.748      -1437.008     0        "DC-DC Converter NCP3063BDR2G (Farnell 1547126)"                      
+R22        0R                                      TopLayer    R1206                             1787.402      -1326.772     90       Resistor                                                              
+D2         LED_YELLOW                              BottomLayer LED0805Y                          826.772       -2051.181     180      "YELLOW LED"                                                          
+R14        220R                                    BottomLayer R0805                             826.772       -1968.504     360      Resistor                                                              
+R25        150R                                    BottomLayer R0805                             1043.307      -1968.504     360      Resistor                                                              
+U4         DRV8838                                 TopLayer    WSON8_(DSG8-1600X900TP)           59.055        -4606.299     90       "Low-Voltage H-Bridge Driver"                                         
+U5         DRV8838                                 TopLayer    WSON8_(DSG8-1600X900TP)           1909.449      -4606.299     90       "Low-Voltage H-Bridge Driver"                                         
+C22        100nF                                   TopLayer    C0805                             1742.126      -4614.173     270      Capacitor                                                             
+C21        100nF                                   TopLayer    C0805                             1820.866      -4565.945     90       Capacitor                                                             
+C19        100nF                                   TopLayer    C0805                             -108.268      -4613.819     270      Capacitor                                                             
+C18        100nF                                   TopLayer    C0805                             -29.528       -4565.945     90       Capacitor                                                             
+R6         0R                                      TopLayer    R0805                             1476.378      -3799.213     270      Resistor                                                              
+Q6         BC847BPN                                TopLayer    SOT-323-6_(SOT-363,_SC88,_SC70-6) 1476.378      -2322.835     270      "PNP/NPN General Purpose Transistor (VCE=45V, IC=100mA)"              
+CN2        "IDC Connector"                         TopLayer    IDC26_RA_LONG_W_CN                982.677       -313.779      360      ""                                                                    
+Q13        IRLML6402                               TopLayer    SOT-23                            1480.315      -688.976      90       "P-Channel; -20V, -3.7A, 1.3W; HEXFET Power MOS-FET"                  
+R38        10k                                     TopLayer    R0805                             1515.748      -885.827      360      Resistor                                                              
+R39        47k                                     TopLayer    R0805                             1661.417      -885.827      180      Resistor                                                              
+D12        KA-2810ASURSK                           BottomLayer LED2810                           2066.929      -6370.079     0        KA-2810ASURSK                                                         
+D13        KA-2810ASURSK                           BottomLayer LED2810                           1889.764      -6370.079     0        KA-2810ASURSK                                                         
+D20        KA-2810ASESK                            TopLayer    LED2810                           -98.425       248.031       360      KA-2810ASESK                                                          
+D21        KA-2810ASESK                            TopLayer    LED2810                           -98.425       -6370.079     180      KA-2810ASESK                                                          
+D23        KA-2810ASESK                            TopLayer    LED2810                           2066.929      -6370.079     180      KA-2810ASESK                                                          
+D22        KA-2810ASESK                            TopLayer    LED2810                           2066.929      248.031       360      KA-2810ASESK                                                          
+Q12        IRLML0040TRPBF                          TopLayer    SOT-23                            539.370       -3570.866     360      "N-Channel; 40V, 3.6A, 1,25W; HEXFET Power MOS-FET"                   
+Q11        IRLML0040TRPBF                          TopLayer    SOT-23                            1153.543      -3566.929     360      "N-Channel; 40V, 3.6A, 1,25W; HEXFET Power MOS-FET"                   
+R37        1k                                      TopLayer    R0805                             539.370       -3696.850     360      Resistor                                                              
+R35        10R                                     TopLayer    R0805                             437.008       -3570.866     90       Resistor                                                              
+R34        10R                                     TopLayer    R0805                             1051.181      -3570.866     90       Resistor                                                              
+R36        1k                                      TopLayer    R0805                             1153.543      -3688.976     360      Resistor                                                              
