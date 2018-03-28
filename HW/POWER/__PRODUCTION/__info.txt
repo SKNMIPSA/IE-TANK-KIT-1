@@ -5,13 +5,7 @@ Pliki GERBER:
  - soldermaski - top: *.GTS, bottom: *.GBS,
  - pady (pasta lutownicza) - top: *.GTP, bottom: *.GBP
  - warstwy opisowe - top: *.GTO, bottom: *.GBO,
- - obrys w pliku *.GKO,
+ - obrys w pliku *.GM3,
  
 Pliki NC Drill:
  - wiercenia: *.TXT.
-
-Pliki Pick & Place:
- - format CSV: *.csv oraz TXT: *.txt
- 
-Pliki BOM:
- - format MS Excel: *.xls
