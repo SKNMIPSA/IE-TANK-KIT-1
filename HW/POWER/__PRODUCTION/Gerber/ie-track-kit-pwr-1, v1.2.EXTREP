@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ie-track-kit-pwr-1, v1.2.GBR   07.03.2018  18:14:44
+Gerber File Extension Report For: ie-track-kit-pwr-1, v1.2.GBR   28.03.2018  20:48:15
 ------------------------------------------------------------------------------------------
 
 
@@ -7,14 +7,15 @@ Gerber File Extension Report For: ie-track-kit-pwr-1, v1.2.GBR   07.03.2018  18:
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.GTO                Top Overlay                             
 .GTS                Top Solder                              
-.GBL                Bottom Layer                            
+.GBP                Bottom Paste                            
+.GTO                Top Overlay                             
 .GBS                Bottom Solder                           
+.GTP                Top Paste                               
+.GM3                Mechanical 3                            
+.GKO                Keep-Out Layer                          
 .GPB                Bottom Pad Master                       
 .GPT                Top Pad Master                          
-.GTP                Top Paste                               
-.GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GKO                Keep-Out Layer                          
+.GBL                Bottom Layer                            
 ------------------------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+Płytka dwu warstwowa na FR4 1,5mm, miedź 35um, opis dwuwarstwowy, cynowanie ołowiowe.
+
+Pliki GERBER:
+ - warstwa miedzi - top: *.GTL; bottom: *.GBL
+ - soldermaski - top: *.GTS, bottom: *.GBS,
+ - pady (pasta lutownicza) - top: *.GTP, bottom: *.GBP
+ - warstwy opisowe - top: *.GTO, bottom: *.GBO,
+ - obrys w pliku *.GKO,
+ 
+Pliki NC Drill:
+ - wiercenia: *.TXT.
+
+Pliki Pick & Place:
+ - format CSV: *.csv oraz TXT: *.txt
+ 
+Pliki BOM:
+ - format MS Excel: *.xls
