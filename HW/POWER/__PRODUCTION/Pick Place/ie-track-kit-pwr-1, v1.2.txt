@@ -4,9 +4,9 @@ E:\Dropbox\_PRACA\HARDWARE\TamiyaTankBot_TTB\HW\POWER\__PRODUCTION\Pick Place\ie
 ========================================================================================================================
 File Design Information:
 
-Date:       28.03.18
-Time:       20:48
-Revision:   edd6272b624cf4090a63403bb77ba89ad9b1d1c9
+Date:       29.03.18
+Time:       14:28
+Revision:   15ac43bf973b4df51d3aa9e5a4d06e2244e25415
 Variant:    No variations
 Units used: mil
 
