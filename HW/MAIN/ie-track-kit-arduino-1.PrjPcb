@@ -156,41 +156,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GOVQVHNV
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.DRR
+[Document8]
+DocumentPath=[07] - CONNECTOR.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.REP
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for TamiyaTankArduinoShield\pcb.TXT
-DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AJAXPOVV
 
 [Configuration1]
 Name=Sources
