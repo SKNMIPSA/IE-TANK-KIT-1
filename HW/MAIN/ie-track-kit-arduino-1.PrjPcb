@@ -207,6 +207,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJAXPOVV
 
+[ProjectVariant1]
+UniqueID=B794AF88-A62D-4C19-B3F7-FEE3B7ED4419
+Description=ARDUINO MEGA
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=M1|UniqueId=\XUQYPGPT|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=D1D34CB9-35BE-4A46-A182-5660DC1B31B6
+Description=ARDUINO UNO
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=M2|UniqueId=\HRNCKXWN|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
