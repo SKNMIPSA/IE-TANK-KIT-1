@@ -174,7 +174,24 @@ GenerateClassCluster=0
 DocumentUniqueId=AXRGPFRC
 
 [Document9]
-DocumentPath=[08] - PERIPHERALS.SchDoc
+DocumentPath=[08] - PERIPHERALS A.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SBFVVGGH
+
+[Document10]
+DocumentPath=[09] - PERIPHERALS B.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -190,14 +207,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PAAJAWGM
 
-[Document10]
-DocumentPath=[09] - COMMUNICATION.SchDoc
+[Document11]
+DocumentPath=[10] - COMMUNICATION.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=8
+AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -207,14 +224,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AOADKPDP
 
-[Document11]
-DocumentPath=[10] - CONNECTOR.SchDoc
+[Document12]
+DocumentPath=[11] - CONNECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=9
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
