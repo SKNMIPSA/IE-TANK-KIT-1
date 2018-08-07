@@ -269,6 +269,10 @@ Variation6=Designator=CN7|UniqueId=\WBTLKEDW|Kind=1|AlternatePart=
 Variation7=Designator=CN8|UniqueId=\MXEJMJRH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ie-track-kit-arduino-1\Design Rule Check - ie-track-kit-arduino-1.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
