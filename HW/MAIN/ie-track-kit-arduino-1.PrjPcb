@@ -208,6 +208,23 @@ GenerateClassCluster=0
 DocumentUniqueId=FVNPASNA
 
 [Document11]
+DocumentPath=ie-track-kit-arduino-1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CNJNPXMC
+
+[Document12]
 DocumentPath=[10] - PERIPHERALS C.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,8 +241,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PAAJAWGM
 
-[Document12]
-DocumentPath=[11] - COMMUNICATION.SchDoc
+[Document13]
+DocumentPath=[11] - PERIPHERALS D.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -239,10 +256,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AOADKPDP
+DocumentUniqueId=RVQHYSJF
 
-[Document13]
-DocumentPath=[12] - CONNECTOR.SchDoc
+[Document14]
+DocumentPath=[12] - COMMUNICATION.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -256,16 +273,16 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AJAXPOVV
+DocumentUniqueId=AOADKPDP
 
-[Document14]
-DocumentPath=ie-track-kit-arduino-1.PcbLib
+[Document15]
+DocumentPath=[13] - CONNECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=12
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -273,7 +290,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CNJNPXMC
+DocumentUniqueId=AJAXPOVV
 
 [ProjectVariant1]
 UniqueID=B794AF88-A62D-4C19-B3F7-FEE3B7ED4419
