@@ -292,6 +292,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJAXPOVV
 
+[Document16]
+DocumentPath=outjob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=B794AF88-A62D-4C19-B3F7-FEE3B7ED4419
 Description=ARDUINO MEGA
@@ -319,6 +336,170 @@ Variation5=Designator=CN6|UniqueId=\TMOUEHVY|Kind=1|AlternatePart=
 Variation6=Designator=CN7|UniqueId=\WBTLKEDW|Kind=1|AlternatePart= 
 Variation7=Designator=CN8|UniqueId=\MXEJMJRH|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ie-track-kit-arduino-1\Design Rule Check - ie-track-kit-arduino-1.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-arduino-1, v1.0.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-arduino-1, v1.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-arduino-1, v1.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1, v1.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-arduino-1, v1.0.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=__PRODUCTION\Pick Place\ie-track-kit-arduino-1, v1.0.txt
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=__PRODUCTION\BOM\ie-track-kit-arduino-1, v1.0.xls
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-pwr-1, v1.2.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-pwr-1, v1.2.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-pwr-1, v1.2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-pwr-1, v1.2.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-pwr-1, v1.2.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=__PRODUCTION\Pick Place\ie-track-kit-pwr-1, v1.2.txt
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=__PRODUCTION\BOM\ie-track-kit-pwr-1, v1.2.xls
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
