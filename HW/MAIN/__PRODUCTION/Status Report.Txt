@@ -1,0 +1,10 @@
+Output: BOM
+Type  : BOM
+From  : Variant [[No Variations]] of Project [ie-track-kit-arduino-1.PrjPcb]
+   Generated File[ie-track-kit-arduino-1, v1.0.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 00:03:21 On 21.08.2018
