@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=HP LaserJet 2200 Series PCL 5
+TargetPrinter=Hewlett-Packard HP LaserJet 400 M401dne
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -318,7 +318,7 @@ OutputPathOutputer4=[Output Type]
 OutputPathOutputerPrefix4=
 OutputPathOutputerValue4=
 OutputFileName4=
-OutputFileNameMulti4=ie-track-kit-arduino-1, v1.0
+OutputFileNameMulti4=ie-track-kit-arduino-1_v11
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=1

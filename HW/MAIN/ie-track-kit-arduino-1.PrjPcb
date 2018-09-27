@@ -442,6 +442,86 @@ DItemRevisionGUID=
 DocumentPath=__PRODUCTION\BOM\ie-track-kit-arduino-1, v1.0.xls
 DItemRevisionGUID=
 
+[GeneratedDocument23]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-arduino-1_v11.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-arduino-1_v11.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-arduino-1_v11.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.REP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=__PRODUCTION\Gerber\ie-track-kit-arduino-1_v11.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=__PRODUCTION\NC Drill\ie-track-kit-arduino-1_v11.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=__PRODUCTION\Pick Place\ie-track-kit-arduino-1_v11.txt
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=__PRODUCTION\BOM\ie-track-kit-arduino-1_v11.xls
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
