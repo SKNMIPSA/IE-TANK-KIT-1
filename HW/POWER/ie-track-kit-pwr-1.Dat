@@ -1,0 +1,56 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~ie-track-kit-pwr-1.PrjPcb|ReportField=ProjectFullPath~E:\Dropbox\_PRACA\HARDWARE\IE-TRACK-KIT-PWR-1\HW\POWER\ie-track-kit-pwr-1.PrjPcb|ReportField=Title~Bill of Materials For Project [ie-track-kit-pwr-1.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~15:09:25|ReportField=ReportDate~16.11.2018|ReportField=ReportDateTime~16.11.2018 15:09:25|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~124|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~9e8643c0d12a4df833a67e76387b82582fd22794|ReportField=ProjectCheckedBy~Pawel Poryzala|ReportField=ProjectDrawnBy~Pawel Poryzala|ReportField=ProjectRevision~1.2|ReportField=ProjectSheetTotal~5|ReportField=ProjectTitle~ie-track-kit-pwr-1|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~Bartosz Kowierski|ReportField=Client~DSG|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=Contact~datasystem.pl|ReportField=CurrentDate~16.11.2018|ReportField=CurrentTime~15:03:03|ReportField=Date~YYYY-MM-DD|ReportField=DocumentFullPathAndName~E:\Dropbox\_PRACA\HARDWARE\IE-TRACK-KIT-PWR-1\HW\POWER\[03] - BLOCK DIAGRAM.SchDoc|ReportField=DocumentName~[03] - BLOCK DIAGRAM.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~Paweł Poryzała|ReportField=Engineer~X|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=ModifiedDate~11.09.2018|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=True:CenterVertical=True:PrintScale=0.52:XCorrection=1.00:YCorrection=1.00:PrintKind=1:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=2:PaperLength=1000:PaperWidth=1000:Scale=100:PaperSource=4:PrintQuality=600:MediaType=1:DitherType=10:PrintScaleMode=1:PaperKind=A4:PaperIndex=9|ReportField=Project name~Test name|ReportField=Projectname~ie-track-kit-pwr-1.PrjPcb|ReportField=Projectnumber~OWN-000|ReportField=Revision~0.9|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Size~A4|ReportField=Time~|ReportField=Title~Test title|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~ie-track-kit-pwr-1.PrjPcb|ReportField=DataSourceFullPath~E:\Dropbox\_PRACA\HARDWARE\IE-TRACK-KIT-PWR-1\HW\POWER\ie-track-kit-pwr-1.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|Keystone 5000 Test Point (RED)|Keystone 5000 Test Point (RED)|1, 2, 3|Keystone_5000_RED|Keystone 5000 Test Point|3
+2|18650 (2x KEYSTONE 54 Holder) Battery|18650 (2x KEYSTONE 54 Holder) Battery|BT1, BT3|KEYSTONE_54_W_18650|18650|2
+3|220nF|Capacitor|C1, C2, C3|C0805|Cap|3
+4|22u/10V|Capacitor|C4|C0805|Cap|1
+5|1u/25V|Capacitor|C5|C0805|Cap|1
+6|220uF/16V|Polarized Capacitor|C6, C7, C12, C17, C20|CES_E_8.3x8.3_6.2|Cap Pol|5
+7|100n/50V|Capacitor|C8, C13|C0805|Cap|2
+8|1u/16V|Capacitor|C9, C14|C0805|Cap|2
+9|2,2n/50V|Capacitor|C10, C15|C0805|Cap|2
+10|6,8n/50V|Capacitor|C11, C16|C0805|Cap|2
+11|100nF|Capacitor|C18, C19, C21, C22|C0805|Cap|4
+12|QTR-8RC_DIRECT|QTR-8RC Reflectance Sensor Array (Pololu item No. 961)|CN1|QTR-8RC_SNAPPED_GOLDPIN_VERTICAL|QTR-8RC_DIRECT|1
+13|IDC Connector||CN2|IDC26_RA_LONG_W_CN|CN_13x2|1
+14|RED|RED LED|D1, D4, D5|LED0805R|LED_RED|3
+15|LED_YELLOW|YELLOW LED|D2|LED0805Y|LED_YELLOW|1
+16|MBRS140T3G|Schottky barrier rectifier: 40V, 1A|D3, D7|SMB|MBRS140T3G|2
+17|GREEN|GREEN LED|D6|LED0805G|LED_GREEN|1
+18|KA-2810ASURSK|KA-2810ASURSK|D8, D9, D10, D11, D12, D13|LED2810|KA-2810ASURSK|6
+19|LTW-108DCG-HS10|LTW-108DCG-HS10|D14, D15, D16, D17, D18, D19|LED2810|LTW-108DCG-HS10|6
+20|KA-2810ASESK|KA-2810ASESK|D20, D21, D22, D23|LED2810|KA-2810ASESK|4
+21|Keystone 5001 Test Point (BLACK)|Keystone 5001 Test Point (BLACK)|GND1|Keystone_5001_BLACK|Keystone 5001 Test Point|1
+22|10uH, 3,45A|10uH, 20%, 3,45A, PSDB1005N Series Inductor|L1, L2|PSDB1005|PSDB1005NT100|2
+23|10k|3364W-1-103E|P1|3364W|3364W-1-103E|1
+24|AO8810|Dual Common Drain N-Channel MOSFET: Vds=20V, Rdson<20mR@4,5V, Id=7A|Q1|TSSOP8|AO8810|1
+25|IRLML6402|P-Channel; -20V, -3.7A, 1.3W; HEXFET Power MOS-FET|Q2, Q13, Q15, Q17|SOT-23|IRLML6402|4
+26|BC847B|NPN General Purpose Transistor (VCE=45V, IC=100mA, HFE=200-450)|Q3, Q4|SOT-23|BC847B|2
+27|AO6401A|P-Channel MOSFET; -60V, -5A, 1.3W;|Q5, Q7|SOT-23-6|AO6401A|2
+28|BC847BPN|PNP/NPN General Purpose Transistor (VCE=45V, IC=100mA)|Q6, Q8|SOT-323-6 (SOT-363, SC88, SC70-6)|BC847BPN|2
+29|IRLML0040TRPBF|N-Channel; 40V, 3.6A, 1,25W; HEXFET Power MOS-FET|Q9, Q10, Q11, Q12|SOT-23|IRLML0040TRPBF|4
+30|BC857BS|2xPNP General Purpose Transistor (VCE=-45V, IC=-100mA)|Q14, Q16, Q18|SOT-323-6 (SOT-363, SC88, SC70-6)|BC857BS|3
+31|1k|Resistor|R1, R2, R3, R4, R13, R18, R20, R21, R24, R29|R0805|Res|10
+32|4M7|Resistor|R5|R0805|Res|1
+33|0R|Resistor|R6, R11, R31|R0805|Res|3
+34|4k7|Resistor|R7|R0805|Res|1
+35|560k|Resistor|R8|R0805|Res|1
+36|100k|Resistor|R9|R0805|Res|1
+37|470|Resistor|R10|R0805|Res|1
+38|0R050|Resistor|R12, R23|R0805|Res|2
+39|150R|Resistor|R14|R0805|Res|1
+40|2k7 1%|Resistor|R15|R0805|Res|1
+41|0R 1%|Resistor|R16|R0805|Res|1
+42|22k|Resistor|R17, R27|R0805|Res|2
+43|2k32 1%|Resistor|R19|R0805|Res|1
+44|0R|Resistor|R22|R1206|Res|1
+45|560R|Resistor|R25|R0805|Res|1
+46|3k0 1%|Resistor|R26|R0805|Res|1
+47|1k 1%|Resistor|R28|R0805|Res|1
+48|56R|Resistor|R30, R34, R35|R0805|Res|3
+49|10k|Resistor|R32, R33, R36, R37, R38, R40, R42|R0805|Res|7
+50|47k|Resistor|R39, R41, R43|R0805|Res|3
+51|B3U-1000PM-B|OMRON Ultra-small Tactile Switch - 12V/50mA|SW1|B3U-1000PM-B|B3U-1000PM-B|1
+52|SL19123|Canal Electronic SPDT AC: 3A/250V, DC: 6A/28V|SW2|500SSPxS1M6xEA|SL19123|1
+53|S-8232|Battery Protection IC For 2-Serial-Cell Pack|U1|TSSOP8|S-8232|1
+54|NCP3063BDR2G|DC-DC Converter NCP3063BDR2G (Farnell 1547126)|U2, U3|SO8|NCP3063BDR2G|2
+55|DRV8838|Low-Voltage H-Bridge Driver|U4, U5|WSON8 (DSG8-1600X900TP)|DRV8838|2

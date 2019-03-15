@@ -1,0 +1,8 @@
+Przycisk podcza podania zasilania, BAUD w trybie konfiguracji 38400 - i komendy:
+
+AT+ORGL
+AT+ROLE=0
+AT+POLAR=1,0
+AT+UART=115200,0,0
+AT+NAME=ROBOT-IE-XX
+AT+INIT
